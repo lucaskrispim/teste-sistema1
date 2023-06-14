@@ -1,0 +1,178 @@
+{
+	"info": {
+		"_postman_id": "e9cbf73e-0301-4707-9291-7b45383036dc",
+		"name": "LP3",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26844945"
+	},
+	"item": [
+		{
+			"name": "Carteira",
+			"item": [
+				{
+					"name": "GET carteiras",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{servidor}}/api/v1/carteiras",
+							"host": [
+								"{{servidor}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"carteiras"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "AtivoAdquirido",
+			"item": [
+				{
+					"name": "GET ativosAdquiridos",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{servidor}}/api/v1/ativosAdquiridos",
+							"host": [
+								"{{servidor}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"ativosAdquiridos"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Ativo",
+			"item": [
+				{
+					"name": "GET ativos",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{servidor}}/api/v1/ativos",
+							"host": [
+								"{{servidor}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"ativos"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "HistoricoPrecos",
+			"item": [
+				{
+					"name": "GET historicoPrecos",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{servidor}}/api/v1/historicosprecos",
+							"host": [
+								"{{servidor}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"historicosprecos"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "HistoricoProventos",
+			"item": [
+				{
+					"name": "GET historicoProventos",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{servidor}}/api/v1/historicosproventos",
+							"host": [
+								"{{servidor}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"historicosproventos"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "TaxaResgate",
+			"item": [
+				{
+					"name": "GET taxasResgate",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{servidor}}/api/v1/taxasresgate",
+							"host": [
+								"{{servidor}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"taxasresgate"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Usuario",
+			"item": [
+				{
+					"name": "GET usuarios",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{servidor}}/api/v1/usuarios",
+							"host": [
+								"{{servidor}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"usuarios"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
